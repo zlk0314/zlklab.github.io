@@ -1,11 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Your Lab</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Lab Name</title>
+  <style>
+    /* 全局样式 */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* 顶部菜单 */
+    header {
+      background-color: #24292e;
+      color: white;
+      padding: 10px 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav a {
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    /* 页面内容 */
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 6px;
+    }
+
+    section {
+      padding: 20px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    section:last-child {
+      border-bottom: none;
+    }
+
+    section h2 {
+      color: #0366d6;
+      margin-bottom: 10px;
+    }
+
+    /* 页脚 */
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+      background-color: #24292e;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Your Lab</h1>
-  <p>This is the official website of our research group.</p>
+
+  <!-- 顶部菜单 -->
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#research">Research</a>
+      <a href="#people">People</a>
+      <a href="#publications">Publications</a>
+      <a href="#join">Join / Contact</a>
+    </nav>
+  </header>
+
+  <!-- 页面内容 -->
+  <div class="container">
+
+    <!-- Home -->
+    <section id="home">
+      <h2>Welcome to Our Lab</h2>
+      <p>Our lab focuses on aging, metabolism, and model organisms. We aim to advance fundamental biology while promoting transparency and reproducibility in science.</p>
+    </section>
+
+    <!-- Research -->
+    <section id="research">
+      <h2>Research</h2>
+      <p>We study the molecular mechanisms of aging, energy metabolism, and organismal physiology using C. elegans and other models. Our approaches combine genetics, imaging, and computational analysis.</p>
+    </section>
+
+    <!-- People -->
+    <section id="people">
+      <h2>People</h2>
+      <p><strong>PI:</strong> Dr. Your Name – Research interests: aging, metabolism, mitochondrial biology.</p>
+      <p><strong>Postdocs & Students:</strong> Names and brief interests.</p>
+      <p><strong>Alumni:</strong> Former members.</p>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+      <h2>Publications</h2>
+      <p>2025 – Smith et al., <em>Nature Aging</em>. DOI: <a href="#">link</a></p>
+      <p>2024 – Liu et al., <em>Cell Metabolism</em>. DOI: <a href="#">link</a></p>
+    </section>
+
+    <!-- Join / Contact -->
+    <section id="join">
+      <h2>Join / Contact</h2>
+      <p>We are always looking for motivated students and postdocs. Please reach out via email: <a href="mailto:yourlab@university.edu">yourlab@university.edu</a></p>
+    </section>
+
+  </div>
+
+  <!-- 页脚 -->
+  <footer>
+    &copy; 2026 Your Lab Name. Hosted on <a href="https://github.com/zlk0314" target="_blank">GitHub</a>.
+  </footer>
+
 </body>
 </html>
